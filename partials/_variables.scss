@@ -1,0 +1,46 @@
+// breakpoints 
+$mobile: 375px;
+$desktop: 1440px;
+
+// colors
+$light-green: hsl(148, 38%, 91%);
+$medium-green: hsl(169, 82%, 27%);
+$main-red: hsl(0, 66%, 54%);
+
+$white: hsl(0, 0%, 100%);
+$grey-500: hsl(186, 15%, 59%);
+$grey-900: hsl(187, 24%, 22%);
+
+// font size
+$labels-size: 16px;
+
+$main-margin: 20px;
+
+// font families
+@font-face {
+    font-family: "Karla";
+    src: url(../assets/fonts/static/Karla-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(../assets/fonts/static/Karla-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(../assets/fonts/Karla-VariableFont_wght.ttf) format("truetype");
+    font-weight: 100 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla";
+    src: url(../assets/fonts/Karla-Italic-VariableFont_wght.ttf) format("truetype");
+    font-weight: 100 800;
+    font-style: italic;
+}

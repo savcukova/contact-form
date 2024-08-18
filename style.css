@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Karla";
+  src: url(../assets/fonts/static/Karla-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Karla";
+  src: url(../assets/fonts/static/Karla-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Karla";
+  src: url(../assets/fonts/Karla-VariableFont_wght.ttf) format("truetype");
+  font-weight: 100 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Karla";
+  src: url(../assets/fonts/Karla-Italic-VariableFont_wght.ttf) format("truetype");
+  font-weight: 100 800;
+  font-style: italic;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(169, 82%, 27%);
+}
+
+footer {
+  height: 3vh;
+  background-color: hsl(148, 38%, 91%);
+}
+
+main {
+  height: 97vh;
+  background-color: hsl(148, 38%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-this {
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: baseline;
+}
+.not-this:hover {
+  background-color: hsla(169, 82%, 27%, 0.217);
+}
+
+.error {
+  font-size: 12px;
+  color: hsl(0, 66%, 54%);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.success {
+  display: none;
+  position: absolute;
+  top: 42px;
+  background-color: hsl(187, 24%, 22%);
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 8px;
+  line-height: 2;
+}
+.success h2 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.success h2 img {
+  padding-right: 10px;
+}
+.success p {
+  font-size: 14px;
+  color: hsl(186, 15%, 59%);
+}
+
+form {
+  width: 600px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 30px;
+  border-radius: 20px;
+}
+form .title {
+  font-size: 36px;
+}
+form .container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+}
+form .container .input-container {
+  width: 50%;
+}
+form .input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+form .label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: hsl(187, 24%, 22%);
+}
+form .input, form .not-this {
+  border: 1px solid hsl(186, 15%, 59%);
+  border-radius: 8px;
+  height: 45px;
+  padding: 20px;
+  color: hsl(187, 24%, 22%);
+}
+form .input:hover, form .not-this:hover {
+  border: 2px solid hsl(169, 82%, 27%);
+}
+form .message {
+  height: 100px;
+}
+form .type {
+  padding-left: 10px;
+}
+form .check {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form .check label {
+  margin-left: 10px;
+  font-size: 14px;
+  color: hsl(187, 24%, 22%);
+}
+form .check:hover {
+  font-weight: bold;
+}
+form .submit-btn {
+  background-color: hsl(169, 82%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+form .submit-btn:hover {
+  background-color: hsl(169, 82%, 15%);
+}/*# sourceMappingURL=style.css.map */

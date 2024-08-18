@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Contact form</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <main>
+    <div class="success">
+      <h2><img src="/assets/images/icon-success-check.svg" alt="succes icon">Message sent!</h2>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+    
+    <form>
+      <h2 class="title">Contact Us</h2>
+
+      <div class="container">
+        <div class="input-container">
+          <label for="first-name" class="label">First Name &nbsp;*</label>
+          <input id="first-name" class="input" type="text">
+          <p class="error"></p>
+        </div>
+  
+        <div class="input-container">
+          <label for="last-name" class="label">Last Name &nbsp;*</label>
+          <input id="last-name" class="input" type="text">
+          <p class="error"></p>
+        </div>
+      </div>
+
+      <div class="input-container">
+        <label for="email" class="label">Email &nbsp;*</label>
+        <input id="email" class="input" type="email">
+        <p class="error"></p>
+      </div>
+
+      <label class="label">Query Type &nbsp;*</label>
+      <div class="container no-margin">
+        <div class="input-container not-this">
+          <input type="radio" name="query-type" class="radio-type input" id="general-equiry">
+          <label for="general-equiry" class="type">General Enquiry</label>
+        </div>
+
+        <div class="input-container not-this">
+          <input type="radio" name="query-type" class="radio-type input" id="support-request">
+          <label for="support-request" class="type">Support Request</label>
+        </div>
+      </div>
+      <p class="error"></p>
+
+      <div class="input-container">
+        <label class="label">Message &nbsp;*</label>
+        <input type="textarea" rows="4" class="input message">
+        <p class="error"></p>
+      </div>
+
+      <div class="check">
+        <input type="checkbox" id="consent">
+        <label for="consent">I consent to being contracted by the team &nbsp;*</label>
+        <p class="error"></p>
+      </div>
+
+      <div class="input-container">
+        <button type="submit" class="submit-btn input">Submit</button>
+      </div>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
