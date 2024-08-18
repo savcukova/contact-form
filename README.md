@@ -27,3 +27,12 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/contact-form.git
+
+2. **Navigate to the Project Directory**
+
+   cd contact-form
+
+3. **Open index.html**
+
+   Open the index.html file in your browser to view the contact form.
+   
