@@ -26,7 +26,8 @@ To get started with this project, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/contact-form.git
+   git clone https://github.com/savcukova/contact-form.git
+
 
 2. **Navigate to the Project Directory**
 
